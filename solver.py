@@ -23,8 +23,8 @@ class Solver(object):
         self.args = args
         print(self.args)
 
-        # logger to use tensorboard
-        self.logger = Logger(self.args.logdir)
+        # logger to use tensorboardo
+        self.logger = Logger(self.args.lgdir)
 
         # get dataloader
         self.get_data_loaders()
